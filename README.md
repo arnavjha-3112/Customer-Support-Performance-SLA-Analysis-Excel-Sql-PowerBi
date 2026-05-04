@@ -77,13 +77,13 @@ The Power BI dashboard provides insights into:
 - Customer satisfaction patterns  
 
 📌 *Dashboard Preview:*  
-![Dashboard](images/support_dashboard.png)
+![Dashboard](images/customer_performance_dashboard.jpg)
 
 ---
 
 ## 📂 SQL Queries
 All SQL queries used for analysis:  
-👉 [View SQL Queries](sql/support_analysis.sql)
+👉 [View SQL Queries](sql/analysis_queries_1.sql)
 
 ---
 

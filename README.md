@@ -3,6 +3,18 @@
 _Analyzing customer support operations to identify inefficiencies in ticket resolution, SLA compliance, and customer satisfaction._
 
 ---
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#key-metrics">Key Metrics</a>
+- <a href="#key-insights">Key Insights</a>
+- <a href="#analysis-approach">Analysis Approach</a>
+- <a href="#dashboard">Dashboard</a>
+- <a href="#sql-queries">SQL Queries</a>
+- <a href="#business-recommendations">Business Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
+
+--
 
 ## 📖 Overview
 This project evaluates the performance of a customer support system using ticket-level data.  

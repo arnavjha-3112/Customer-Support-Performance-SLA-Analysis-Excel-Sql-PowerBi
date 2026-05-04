@@ -106,8 +106,8 @@ All SQL queries used for analysis:
 
 ---
 
-## 👤 Author
-**Arnav Jha**  
-Aspiring Data Analyst  
-- SQL | Excel | Power BI  
-- LinkedIn: https://www.linkedin.com/in/arnavkumarjha/
+**Arnav Jha** <br>
+Data Analyst
+- 📧 Email: (arnavjha3112@gmail.com) 
+- 🔗 [LinkedIn](https://www.linkedin.com/in/arnavkumarjha/)
+- 🐙 [Github](https://github.com/arnavjha-3112)

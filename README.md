@@ -4,7 +4,7 @@ _Analyzing customer support operations to identify inefficiencies in ticket reso
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
 - <a href="#key-metrics">Key Metrics</a>
@@ -48,17 +48,17 @@ This project aims to:
 
 <h2><a class="anchor" id="key-insights"></a>🔍 Key Insights</h2>
 
-- 🔴 **High backlog pressure:**  
+-  **High backlog pressure:**  
   ~67% of tickets remain open, indicating a significant accumulation of unresolved issues
-- ⚠️ **Low SLA compliance (~16%):**  
+-  **Low SLA compliance (~16%):**  
   A large proportion of tickets fail to meet SLA targets, highlighting inefficiencies in resolution processes
-- 📈 **Better performance among resolved cases:**  
+-  **Better performance among resolved cases:**  
   ~50% of closed tickets meet SLA, suggesting delays are primarily driven by unresolved backlog
-- 🧩 **Recurring issues dominate workload:**  
+-  **Recurring issues dominate workload:**  
   Refund requests (1,752) and technical issues (1,747) are the most frequent complaints
-- ⭐ **Low customer satisfaction (~1.0 avg):**  
+-  **Low customer satisfaction (~1.0 avg):**  
   Especially poor ratings for cancellation-related issues, indicating dissatisfaction with critical workflows
-- ⚖️ **Balanced workload across priorities:**  
+-  **Balanced workload across priorities:**  
   Ticket priority distribution is evenly spread, meaning inefficiency is not limited to high-priority cases
 
 ---
@@ -88,7 +88,7 @@ The dashboard provides insights into:
 
 ---
 
-<h2><a class="anchor" id="sql-queries"></a>📂 SQL Queries</h2>
+<h2><a class="anchor" id="sql-queries"></a> SQL Queries</h2>
 
 All queries used for analysis:  
 [View SQL Queries](sql/analysis_queries_1.sql)

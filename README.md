@@ -39,7 +39,7 @@ This project aims to:
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-- Dataset used in this project: [Dataset Link](https://www.kaggle.com/datasets/kundanbedmutha/indian-e-commerce-customer-behavior-and-purchase)
+- Dataset used in this project: [Dataset Link](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset)
 
 ---
 <h2><a class="anchor" id="key-metrics"></a>📊 Key Metrics</h2>

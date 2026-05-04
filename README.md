@@ -84,7 +84,7 @@ The dashboard provides insights into:
 - Resolution time trends
 - Customer satisfaction patterns
 
-![Customer Support Dashboard](customer_performance_dashboard.jpg)
+![Customer Support Dashboard](images/customer_performance_dashboard.jpg)
 
 ---
 

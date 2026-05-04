@@ -1,108 +1,103 @@
 # 📞 Customer Support Performance & SLA Analysis
 
-Analyzing customer support ticket data to evaluate operational efficiency, SLA compliance, and customer satisfaction.
+_Analyzing customer support operations to identify inefficiencies in ticket resolution, SLA compliance, and customer satisfaction._
 
 ---
 
 ## 📖 Overview
-This project analyzes customer support operations using ticket-level data to identify inefficiencies in resolution processes, backlog management, and SLA compliance.
+This project evaluates the performance of a customer support system using ticket-level data.  
 
-The objective is to uncover patterns in customer complaints and provide actionable insights to improve service quality and operational performance.
+The goal is to identify operational bottlenecks, measure SLA compliance, and uncover patterns in customer issues to improve service efficiency and customer experience.
 
 ---
 
 ## 🎯 Business Problem
-Customer support teams handle large volumes of tickets daily, but delays in resolution, poor SLA adherence, and recurring issues can negatively impact customer experience.
+Customer support teams handle large volumes of tickets, but inefficiencies in resolution time, backlog management, and SLA adherence can negatively impact customer satisfaction and operational performance.
 
-This project focuses on:
-- Identifying ticket backlog and resolution gaps  
-- Measuring SLA compliance  
-- Analyzing recurring complaint categories  
-- Evaluating customer satisfaction trends  
-
----
-
-## 🛠️ Tools & Technologies
-- SQL  
-- Excel  
-- Power BI  
+This project aims to:
+- Identify ticket backlog and resolution gaps  
+- Measure SLA compliance across all tickets  
+- Analyze complaint patterns and recurring issues  
+- Evaluate customer satisfaction across issue types  
 
 ---
 
-## 🧹 Data Preparation
-- Cleaned ticket status and SLA fields  
-- Standardized categorical values  
-- Handled missing or inconsistent entries  
-- Prepared data for aggregation and analysis  
-
----
-
-## 🔍 Key Metrics
+## 📊 Key Metrics
 - **Total Tickets:** 8,469  
-- **Open Tickets:** ~5,700 (~67%)  
-- **Closed Tickets:** ~2,769 (~33%)  
+- **Open Tickets:** 5,700 (~67%)  
+- **Closed Tickets:** 2,769 (~33%)  
 - **Average Resolution Time:** ~1.26 hours  
 - **SLA Compliance Rate:** ~16% (overall)  
 
 ---
 
-## 📊 Key Insights
+## 🔍 Key Insights
 
-- 🔴 **High backlog (67% open tickets):**  
-  Indicates significant delay in resolving customer issues  
+- 🔴 **High backlog pressure:**  
+  ~67% of tickets remain open, indicating a significant accumulation of unresolved issues  
 
 - ⚠️ **Low SLA compliance (~16%):**  
-  Majority of tickets fail to meet SLA targets  
+  A large proportion of tickets fail to meet SLA targets, highlighting inefficiencies in resolution processes  
 
-- 📈 **Improved performance for closed tickets (~50% SLA met):**  
-  Suggests backlog is the primary cause of poor overall SLA  
+- 📈 **Better performance among resolved cases:**  
+  ~50% of closed tickets meet SLA, suggesting delays are primarily driven by unresolved backlog  
 
 - 🧩 **Recurring issues dominate workload:**  
-  Refund requests and technical issues are the most frequent  
+  Refund requests (1,752) and technical issues (1,747) are the most frequent complaints  
 
 - ⭐ **Low customer satisfaction (~1.0 avg):**  
-  Particularly low for cancellation-related issues  
+  Especially poor ratings for cancellation-related issues, indicating dissatisfaction with critical workflows  
 
-- ⚖️ **Balanced priority distribution:**  
-  Indicates inefficiency is system-wide, not limited to high-priority tickets  
+- ⚖️ **Balanced workload across priorities:**  
+  Ticket priority distribution is evenly spread, meaning inefficiency is not limited to high-priority cases  
+
+---
+
+## 📊 Analysis Approach
+- Used **SQL** to calculate KPIs, SLA compliance, and ticket distribution  
+- Performed aggregation across:
+  - Ticket categories  
+  - Priority levels  
+  - Communication channels  
+- Analyzed resolution time and customer satisfaction patterns  
+- Built a **Power BI dashboard** to visualize operational performance  
 
 ---
 
 ## 📊 Dashboard
-The Power BI dashboard provides insights into:
+The dashboard provides insights into:
 - Ticket volume and backlog  
 - SLA performance  
 - Complaint category distribution  
 - Resolution time trends  
 - Customer satisfaction patterns  
 
-📌 *Dashboard Preview:*  
-![Dashboard](images/customer_performance_dashboard.jpg)
-
----
-
-## 📂 SQL Queries
-All SQL queries used for analysis:  
-👉 [View SQL Queries](sql/analysis_queries_1.sql)
+![Customer Performance Dashboard](images/customer_performance_dashboard.jpg)
 
 ---
 
 ## 💡 Business Recommendations
 
 - **Reduce backlog:**  
-  Prioritize high-volume issues such as refunds and technical complaints  
+  Prioritize high-volume categories (refunds, technical issues) to improve closure rates  
 
 - **Improve SLA compliance:**  
-  Implement monitoring and escalation mechanisms for delayed tickets  
+  Introduce stricter monitoring and escalation mechanisms for delayed tickets  
 
 - **Address root causes:**  
-  Fix recurring issues at the process or product level  
+  Fix recurring issues (e.g., refund processing, technical bugs) at the product/process level  
 
 - **Enhance customer experience:**  
-  Improve handling of cancellation-related requests  
+  Improve handling of cancellation requests to increase satisfaction scores  
 
-- **Optimize support operations:**  
-  Distribute workload efficiently across channels  
+- **Optimize support channels:**  
+  Balance workload across channels (email, phone, chat) to improve response efficiency  
+
+---
+
+## 📂 SQL Queries
+All queries used for analysis:  
+[View SQL Queries](sql/analysis_queries_1.sql)
 
 ---
 

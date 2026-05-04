@@ -7,6 +7,7 @@ _Analyzing customer support operations to identify inefficiencies in ticket reso
 ## Table of Contents
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
 - <a href="#key-metrics">Key Metrics</a>
 - <a href="#key-insights">Key Insights</a>
 - <a href="#analysis-approach">Analysis Approach</a>
@@ -36,6 +37,11 @@ This project aims to:
 
 ---
 
+<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+
+- Dataset used in this project: [Dataset Link](https://www.kaggle.com/datasets/kundanbedmutha/indian-e-commerce-customer-behavior-and-purchase)
+
+---
 <h2><a class="anchor" id="key-metrics"></a>📊 Key Metrics</h2>
 
 - **Total Tickets:** 8,469

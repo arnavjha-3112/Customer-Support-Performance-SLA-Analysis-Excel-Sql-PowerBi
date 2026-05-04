@@ -84,14 +84,14 @@ The dashboard provides insights into:
 - Resolution time trends
 - Customer satisfaction patterns
 
-![Customer Support Dashboard](images/dashboard.png)
+![Customer Support Dashboard](customer_performance_dashboard.jpg)
 
 ---
 
 <h2><a class="anchor" id="sql-queries"></a>📂 SQL Queries</h2>
 
 All queries used for analysis:  
-[View SQL Queries](sql/support_analysis.sql)
+[View SQL Queries](sql/analysis_queries_1.sql)
 
 ---
 
@@ -112,7 +112,9 @@ All queries used for analysis:
 
 <h2><a class="anchor" id="author--contact"></a>👤 Author & Contact</h2>
 
-**Arnav Jha**  
-Aspiring Data Analyst
-- 🛠️ Skills: SQL, Excel, Power BI
-- 🔗 LinkedIn: (Add link)
+**Arnav Jha** <br>
+Data Analyst
+- 📧 Email: (arnavjha3112@gmail.com) 
+- 🔗 [LinkedIn](https://www.linkedin.com/in/arnavkumarjha/)
+- 🐙 [Github](https://github.com/arnavjha-3112)
+
